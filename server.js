@@ -98,7 +98,7 @@ if (!nimModel) {
       messages: messages,
       top_p: top_p || 0.95,
       temperature: temperature || 1,
-      max_tokens: max_tokens || 9024,
+      max_tokens: max_tokens || 89800,
       extra_body: ENABLE_THINKING_MODE ? { chat_template_kwargs: { thinking: true } } : undefined,
       stream: stream || false
     };
